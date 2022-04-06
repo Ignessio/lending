@@ -1,0 +1,17 @@
+.intro  {
+  padding: 280px;
+  margin-top: 1px;
+  opacity: 1;
+}
+
+.intro-logo  {
+  width: 120px;
+  height: auto;
+  margin-bottom: 40px;
+}
+
+.intro .text-lead  {
+  color: #9b8961;;
+  max-width: 70%;
+  margin: 0 17%;
+}

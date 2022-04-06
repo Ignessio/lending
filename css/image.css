@@ -1,0 +1,22 @@
+.image-product  {
+  margin-bottom: 20px;
+  width: 100%;
+  border-radius: 15px;
+  box-shadow: 0 0 10px #666;
+}
+
+.image-fluid  {
+  max-width: 90%;
+  height: auto;
+}
+
+.image-item  {
+  width: 100px;
+  border-radius: 100px;
+  box-shadow: 0 0 5px #666;
+}
+
+.image-icon  {
+  width: 100px;
+}
+
