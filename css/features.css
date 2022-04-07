@@ -1,12 +1,16 @@
-.features  {
-  padding: 20px 0;
+.features {
+  padding-top: 20px;
   background: #f3f3f3;
 }
 
-.features-item  {
+.features-item {
   padding: 15px;
 }
 
-.feature-product  {
-  margin-bottom: 50px;
+.feature-product {
+  margin-bottom: 30px;
+}
+
+.features-contact {
+  margin-top: 0;
 }

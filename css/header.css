@@ -1,4 +1,4 @@
-.header  {
+.header {
   position: fixed;
   width: 100%;
   background: #fff;
@@ -6,24 +6,24 @@
   opacity: 0.90;
 }
 
-.header-logo  {
+.header-logo {
   float: left;
   display: inline;
   width: 134px;
   height: 36px;
 }
 
-.header-logo-image  {
+.header-logo-image {
   margin-top: -18px;
 }
 
-.header-nav  {
+.header-nav {
   float: right;
   vertical-align: baseline;
   line-height: 36px;
 }
 
-.header-nav-item, .nav-item  {
+.header-nav-item, .nav-item {
   list-style: none;
   padding: 0 20px;
   margin: 0;
@@ -48,8 +48,8 @@
     top: auto;
     opacity: 1;
   }
-  
-  .header-logo-image  {
+
+  .header-logo-image {
     padding: 0 20px;
     margin: 0;
   }
@@ -59,13 +59,13 @@
     float: none;
   }
 
-  .header-nav  {
+  .header-nav {
     float: left;
   }
 }
 
 @media (max-width:  360px) {
-   .header-logo-image  {
+   .header-logo-image {
     padding: 0 20px;
     margin: 0;
   }

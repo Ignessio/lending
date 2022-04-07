@@ -1,4 +1,4 @@
-.button  {
+.button {
   display: inline-block;
   border-radius: 3px;
   font-size: 16px;
@@ -29,13 +29,13 @@
 }
 
 @media (max-width: 640px) {
-  .button-green  {
+  .button-green {
     float: none;
   }
 }
 
 @media (max-width:  360px) {
-  .button-green  {
+  .button-green {
     float: none;
   }
 }

@@ -5,12 +5,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Космические путешествия</title>
   <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/header.css">
   <link rel="stylesheet" href="css/text.css">
-  <link rel="stylesheet" href="css/intro.css">
   <link rel="stylesheet" href="css/button.css">
   <link rel="stylesheet" href="css/grid.css">
+  <link rel="stylesheet" href="css/intro.css">
   <link rel="stylesheet" href="css/features.css">
-  <link rel="stylesheet" href="css/header.css">
   <link rel="stylesheet" href="css/image.css">
   <script src="js/jquery-3.6.0.min.js"></script>
   <script src="js/parallax.min.js"></script>
@@ -18,7 +18,7 @@
 </head>
 <body>
 <div class="header">
-  <div class="container buffer-both-20">
+  <div class="container buffer-both">
     <div class="title-head">
       <p>Космо-тревел</p>
     </div>
@@ -38,46 +38,54 @@
   </div>
 </div>
 <div class="intro text-center" id="intro" data-parallax="scroll" data-image-src="images/bg_01.jpg">
-  <p class="title-large text-color-vanila">Космические путешествия</p>
-  <p class="title-medium text-color-vanila">Регулярные рейсы в пределах солнечной системы!</p>
-  <div class="buffer-both-20">
+  <p class="title-large">Космические путешествия</p>
+  <p class="text-large">Регулярные рейсы в пределах солнечной системы!</p>
+  <div class="buffer-both">
     <a class="button button-green" href="#buy">Заказать</a>
   </div>
 </div>
 <div class="features text-center">
-  <div class="container shadow">
+  <div class="container shadow-down">
     <div class="column-25">
       <div class="features-item">
-        <img class="image-icon" src="images/taxi.png" alt="[такси]">
+        <div class="features-icon">
+          <img src="images/taxi.png" class="image-icon" alt="[такси]">
+        </div>
         <p class="title-medium">Трансфер</p>
-        <p class="text-lead">Бесплатное такси до космопорта и обратно после прилета</p>
+        <p class="text-medium">Такси из дома и обратно бесплатно</p>
       </div>
     </div>
     <div class="column-25">
       <div class="features-item">
-        <img class="image-icon" src="images/rocket.png" alt="[иконка 2]">
+        <div class="features-icon">
+          <img src="images/rocket.png" class="image-icon" alt="[рокета]">
+        </div>
         <p class="title-medium">Скорость</p>
-        <p class="text-lead">Мы принимаем заказы даже в день вылета</p>
+        <p class="text-medium">Вылет в день заказа</p>
       </div>
     </div>
     <div class="column-25">
       <div class="features-item">
-        <img class="image-icon" src="images/wallet.png" alt="[иконка 3]">
+        <div class="features-icon">
+          <img src="images/wallet.png" class="image-icon" alt="[кошелек]">
+        </div>
         <p class="title-medium">Легко купить</p>
-        <p class="text-lead">Вы можете оплатить поездку любым удобным способом</p>
+        <p class="text-medium">Любой способ оплаты</p>
       </div>
     </div>
     <div class="column-25">
       <div class="features-item">
-        <img class="image-icon" src="images/gift.png" alt="[иконка 4]">
+        <div class="features-icon">
+          <img src="images/gift.png" class="image-icon" alt="[подарок]">
+        </div>
         <p class="title-medium">Подарок</p>
-        <p class="text-lead">Каждое десятое путешествие бесплатно</p>
+        <p class="text-medium">Десятый полет бесплатно</p>
       </div>
     </div>
   </div>
 </div>
 <div class="features text-center" id="routes">
-  <div class="container shadow">
+  <div class="container shadow-up">
     <div class="features-item">
       <div class="column-33">
         <div class="feature-product" >
@@ -120,7 +128,7 @@
       </div>
     </div>
   </div>
-  <div class="container shadow">
+  <div class="container shadow-down">
     <div class="features-item">
       <div class="column-33">
         <div class="feature-product" >
@@ -168,14 +176,14 @@
 
 </div>
 <div class="features text-center" id="reviews">
-  <div class="container shadow">
+  <div class="container shadow-down">
     <div class="column-25">
       <div class="features-item">
         <div class="features-icon">
           <img src="images/ava01.jpg" class="image-item" alt="[аватарка]">
         </div>
-        <p class="title-medium">Маша, студентка</p>
-        <p class="text-lead">Ой, так классно полетали!</p>
+        <p class="title-small">Маша, студентка</p>
+        <p class="text-small">Ой, так классно полетали!</p>
       </div>
     </div>
     <div class="column-25">
@@ -183,8 +191,8 @@
         <div class="features-icon">
           <img src="images/ava02.jpg" class="image-item" alt="[аватарка]">
         </div>
-        <p class="title-medium">Майк, монстр</p>
-        <p class="text-lead">Даже я впечатлился!</p>
+        <p class="title-small">Майк, монстр</p>
+        <p class="text-small">Даже я впечатлился!</p>
       </div>
     </div>
     <div class="column-25">
@@ -192,8 +200,8 @@
         <div class="features-icon">
           <img src="images/ava03.jpg" class="image-item" alt="[аватарка]">
         </div>
-        <p class="title-medium">Стич, иностранец</p>
-        <p class="text-lead">Стич хороший, любить летать</p>
+        <p class="title-small">Стич, иностранец</p>
+        <p class="text-small">Стич хороший, любить летать</p>
       </div>
     </div>
     <div class="column-25">
@@ -201,31 +209,37 @@
         <div class="features-icon">
           <img src="images/ava04.jpg" class="image-item" alt="[аватарка]">
         </div>
-        <p class="title-medium">Кот, просто кот</p>
-        <p class="text-lead">Шо это было?!</p>
+        <p class="title-small">Кот, просто кот</p>
+        <p class="text-small">Шо это было?!</p>
       </div>
     </div>
   </div>
 </div>
 <div class="features text-center" id="contacts">
-  <div class="container shadow">
+  <div class="container shadow-up">
     <div class="column-33">
-      <div class="features-item buffer-right">
-        <p class="title-medium">ООО "Космо-тревел"</p>
-        <p class="text-lead">ИНН 2345723-8432</p>
-        <p class="text-lead">ОГРН 24353532463</p>
-      </div>
-    </div>
-    <div class="column-33">
-      <div class="features-item buffer-right">
-        <p class="title-medium"><a href="tel:+020304050607">02 (030) 4050607</a></p>
-        <p class="text-lead">Пн - Пт с 9:00 до 21:00</p>
-        <p class="text-lead">Сб - Вс с 11:00 до 19:00</p>
+      <div class="features-item">
+        <div class="features-contact">
+          <p class="title-medium">ООО "Космо-тревел"</p>
+          <p class="text-medium padding-both">ИНН 2345723-8432</p>
+          <p class="text-medium padding-both">ОГРН 24353532463</p>
+        </div>
       </div>
     </div>
     <div class="column-33">
       <div class="features-item">
-        <p class="text-lead margin-top-20px">© 2022 права защищены</p>
+        <div class="features-contact">
+          <p class="title-medium">02 (030) 4050607</p>
+          <p class="text-medium padding-both">Пн - Пт с 9:00 до 21:00</p>
+          <p class="text-medium padding-both">Сб - Вс с 11:00 до 19:00</p>
+        </div>
+      </div>
+    </div>
+    <div class="column-33">
+      <div class="features-item">
+        <div class="features-contact">
+          <p class="text-medium padding-up">© 2022 права защищены</p>
+        </div>
       </div>
     </div>
   </div>
